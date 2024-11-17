@@ -26,7 +26,7 @@ public class Ex4 {
         salario = horasTrabalhadas * valorHora;
 
         System.out.printf("Funcionario numero: %d%n", funcionario);
-        System.out.printf("Salario: U$ %.2f%n", salario);
+        System.out.printf("Salario: R$ %.2f%n", salario);
 
     }
 }
