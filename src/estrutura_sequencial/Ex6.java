@@ -1,4 +1,4 @@
-package exrecicios_estrutura_sequencial;
+package estrutura_sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;

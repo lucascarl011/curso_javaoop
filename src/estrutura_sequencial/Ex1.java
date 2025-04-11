@@ -1,6 +1,5 @@
-package exrecicios_estrutura_sequencial;
+package estrutura_sequencial;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 // Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma

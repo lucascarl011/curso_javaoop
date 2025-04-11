@@ -1,4 +1,4 @@
-package exrecicios_estrutura_sequencial;
+package estrutura_sequencial;
 
 //Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo com quatro
 //casas decimais conforme exemplos.
@@ -14,11 +14,17 @@ public class Ex2 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double raio2, area, valorPi = 3.14159;
+        double largura = sc.nextDouble();
+        double comprimento = sc.nextDouble();
+        double metroQuadrardo = sc.nextDouble();
 
-        raio2 = sc.nextDouble();
-        area = valorPi * raio2 * raio2;
+        double area = largura * comprimento;
+        double preco = area * metroQuadrardo;
 
-        System.out.printf("A = %.4f%n", area);
+        System.out.printf("AREA = %.2f%n", area);
+        System.out.printf("PRECO = %.2f%n", preco);
+
+        sc.close();
+
     }
 }
